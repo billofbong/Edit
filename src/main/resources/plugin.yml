@@ -1,0 +1,9 @@
+author: billofbong
+database: false
+description: "\r\n"
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: org.awesomecraft.plugins.edit.Edit
+name: Edit
+startup: postworld
+url: http://awesomecraft.org/
+version: '1.0'
