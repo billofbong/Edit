@@ -7,3 +7,10 @@ name: Edit
 startup: postworld
 url: http://awesomecraft.org/
 version: '1.0'
+commands:
+  e:
+    description: Edit a block.
+    aliases: [edit]
+  em:
+    description: Change your EditMaterial
+    aliases: [emat, editmat, editmaterial]
