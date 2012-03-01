@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.awesomecraft.plugins.edit</groupId>
-    <artifactId>Edit</artifactId>
+    <groupId>org.awesomecraft.plugins.creativelist</groupId>
+    <artifactId>CreativeList</artifactId>
     <version>1.0</version>
-    <name>Edit</name>
+    <name>CreativeList</name>
     <url>http://awesomecraft.org/</url>
     <repositories>
         <repository>
             <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/artifactory/repo</url>
+            <url>http://repo.bukkit.org/content/groups/public</url>
         </repository>
     </repositories>
     <build>
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.0.1-R1</version>
+            <version>1.1-R3</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>

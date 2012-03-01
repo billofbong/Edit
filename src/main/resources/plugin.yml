@@ -14,3 +14,11 @@ commands:
   em:
     description: Change your EditMaterial
     aliases: [emat, editmat, editmaterial]
+  be:
+    description: Blocks placed change to your EditMaterial.
+    aliases: [blockedit]
+permissions:
+  edit.be:
+    default: op
+  edit.edit:
+    default: op
